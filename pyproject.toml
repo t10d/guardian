@@ -8,7 +8,7 @@ authors = [
     "Rui Conti <rui@t10.digital>",
     "Rafael Melo <rafael@t10.digital>"
 ]
-repository = "https://github.com/t10d/chisel"
+repository = "https://github.com/t10d/guardian"
 classifiers=[
     "Topic :: Utilities",
     "Topic :: Software Development :: Libraries :: Python Modules",
@@ -19,7 +19,7 @@ classifiers=[
 ]
 
 packages = [
-    { include = "chisel", from = "src"}
+    { include = "guardian", from = "src"}
 ]
 
 [tool.poetry.urls]
