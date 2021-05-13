@@ -1,0 +1,8 @@
+*cache
+*.mypy_cache
+*.egg-info/
+*.pyc
+build/
+dist/
+create/
+.venv/

@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "kingdom-guardian"
+version = "0.0.1dev2"
+license = "MIT"
+description = "Simple but safe authorization and authentication facilities"
+readme = "README.md"
+authors = [
+    "Rui Conti <rui@t10.digital>",
+    "Rafael Melo <rafael@t10.digital>"
+]
+repository = "https://github.com/t10d/chisel"
+classifiers=[
+    "Topic :: Utilities",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+]
+
+packages = [
+    { include = "chisel", from = "src"}
+]
+
+[tool.poetry.urls]
+"Issue Tracker" = "https://github.com/t10d/guardian/issues"
+"Source Versioning" = "https://github.com/t10d/guardian"
+
+[tool.poetry.dependencies]
+python = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
