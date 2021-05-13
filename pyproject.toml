@@ -27,7 +27,8 @@ packages = [
 "Source Versioning" = "https://github.com/t10d/guardian"
 
 [tool.poetry.dependencies]
-python = "*"
+python = "^3.6"
+jwt = "^1.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.4"
